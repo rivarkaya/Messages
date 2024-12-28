@@ -1,0 +1,99 @@
+/* AdminPage.css */
+.admin-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.message-header {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.no-messages {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.message-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.message-item:hover {
+    background-color: #f0f0f0;
+}
+
+.selected {
+    background-color: #f0f0f0;
+}
+
+.admin-response {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timestamp {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.respond-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.respond-button:hover {
+    background-color: #45a049;
+}
+
+.response-section {
+    margin-top: 20px;
+}
+
+.response-textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+
+.response-button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.response-button:hover {
+    background-color: #45a049;
+}
